@@ -1,0 +1,43 @@
+.theme {
+    .wrap {
+        background: #000;
+    }
+
+    #slide {
+        background: linear-gradient(225deg, #262526 0%, #19181A 100%);
+    }
+
+    .slide__main-title {
+        color: #fff;
+    }
+    
+    .slide__main-author {
+        color: #fff;
+    }
+    
+    .slide__comment {
+        color: #fff;
+    }
+
+    .price {
+        background: #000;
+    }
+
+    footer {
+        background: #000;
+    }
+
+    .price__list-card {
+        background: rgba(55, 54, 64, 1);
+        color: #fff;
+    }
+
+    .active {
+        background: $primary-bg;
+        color: #fff;
+    }
+
+    .footer__text {
+        color: rgba(125, 125, 128, 1);
+    }
+}

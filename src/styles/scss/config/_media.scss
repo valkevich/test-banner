@@ -1,0 +1,178 @@
+@media screen and (max-width: 376px) {
+    header {
+        padding-bottom: 60px;
+    }
+
+    .graphic {
+        margin-top: 20px;
+    }
+
+    .red-dot {
+        left: 313px;
+        top: 53px;
+    }
+    
+    .green-dot {
+        left: 313px;
+        top: 136px;
+    }
+
+    .header__woman {
+        position: absolute;
+        top: 118px;
+        left: 162px;
+        width: 125px;
+        height: 228px;
+    }
+
+    .graphic__column {
+        padding: 14px 0 14px 20px;
+    }
+
+    #slide {
+        width: 335px;
+        height: 145px;
+    }
+
+    .price__list-card {
+        width: 105px;
+    }
+
+    .active {
+        background: $primary-bg;
+        color: #fff;
+    }
+
+    .price__info-title {
+        margin-bottom: 7px;
+    }
+
+    .price__info {
+        padding: 0 0 23px 0;
+    }
+
+    .sale {
+        top: 149px;
+    }
+
+    .price__button {
+        width: 335px;
+    }
+
+    footer {
+        margin-top: -1px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    header {
+        padding-top: 50px;
+        padding-bottom: 72px;
+        flex-direction: column;
+        background: $primary-bg;
+    }
+
+    .close {
+        top: 37px;
+        right: 10px;
+    }
+    
+    .header__title {
+        font-size: 24px;
+    }    
+
+    .graphic {
+        margin-top: 7px;
+    }
+
+    .red-dot {
+        left: 267px;
+        top: 45px;
+    }
+    
+    .green-dot {
+        left: 267px;
+        top: 117px;
+    }
+
+    .graphic__column {
+        padding: 6px 0 6px 20px;
+    }
+
+    .header__woman {
+        position: absolute;
+        top: 77px;
+        left: 158px;
+        width: 83px;
+        height: 150px;
+    }
+
+    #slide {
+        width: 280px;
+        height: 110px;
+    }
+
+    .slide__main-title {
+        font-size: $primary-fz;
+        line-height: 18px;
+        color: #1A1A1A;
+        font-weight: 600;
+    }
+    
+    .slide__comment {
+        font-size: 13px;
+        line-height: 15.23px;
+    }
+
+    .star {
+        width: 17px;
+        height: 17px;
+    }
+
+    .slide__rating {
+        padding: 7px 0 9px 0;
+    }
+
+    .price__list-card {
+        width: 88px;
+    }
+
+    .active {
+        background: $primary-bg;
+        color: #fff;
+    }
+
+    .price__info-title {
+        margin-top: 4px;
+        margin-bottom: 5px;
+        font-size: 13px;
+        line-height: 15.23px;
+    }
+    .price__info-subtitle {
+        margin-bottom: 3px;
+        font-size: 11px;
+        line-height: 15.23px;
+    }
+    
+    .price__month {
+        font-size: 10px;
+        line-height: 11.93px;
+        text-align: center;
+        letter-spacing: -0.354546px;
+    }
+
+    .sale {
+        top: 116px;
+    }
+
+    .price__button {
+        width: 280px;
+    }
+
+    footer {
+        margin-top: -1px;
+        padding-bottom: 18px;
+    }
+
+
+}

@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    position: relative;
+    padding-bottom: 38px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    font-size: 11px;
+    line-height: 15px;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}

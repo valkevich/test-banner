@@ -1,0 +1,149 @@
+header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 72px;
+    flex-direction: column;
+    background: $primary-bg;
+}
+
+.close {
+    position: absolute;
+    top: 48px;
+    right: 13px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.527344);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.close:before, .close:after {
+    position: absolute;
+    top: 8px;
+    left: 13.64px;
+    content: ' ';
+    height: 16px;
+    width: 2px;
+    background: $primary-bg;
+    }
+    .close:before {
+    transform: rotate(45deg);
+    }
+    .close:after {
+    transform: rotate(-45deg);
+    }
+
+
+.header__title {
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.37px;
+    color: #fff;
+}    
+
+
+.graphic {
+    position: relative;
+    display: flex;
+    margin-top: 33px;
+    flex-direction: column; 
+    margin-bottom: 40px;
+}
+
+.graphic__column {
+    display: flex;
+    padding: 15px 0 15px 20px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    background: $primary-bg;
+}
+
+.graphic__frontier {
+    display: block;
+    height: 1px;
+    width: 100%;
+    opacity: 0.76;
+    background:linear-gradient(90deg, rgba(255, 255, 255, 0.0001) 0%, rgba(255, 255, 255, 0.690068) 48.69%, rgba(255, 255, 255, 0.0001) 100%);
+}
+
+
+.graphic__line {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.graphic__dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7px;
+    height: 7px;
+    border: 3.5px solid #fff;
+    background: #fff;
+    border-radius: 100px;
+}
+
+.red-dot {
+    position: absolute;
+    left: 368px;
+    top: 62px;
+    background: rgba(238, 48, 78, 1);
+}
+
+.green-dot {
+    position: absolute;
+    left: 368px;
+    top: 160px;
+    background: rgba(4, 205, 0, 1);
+    text-transform: uppercase;
+}
+
+.graphic__description {
+    position: relative;
+    bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.graphic__description-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 51px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.graphic__description-pointer {
+    width: 0; 
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 3px solid #fff;
+}
+
+.graphic__description-content--pointer {
+    margin-left: 1.5px;
+}
+
+.header__woman {
+    position: absolute;
+    top: 118px;
+    left: 178px;
+    width: 142px;
+    height: 265px;
+}

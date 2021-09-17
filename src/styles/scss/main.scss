@@ -1,0 +1,16 @@
+//Config
+@import 'config/reset';
+@import 'config/variables';
+@import 'config/base';
+@import 'config/theme';
+
+
+
+// Components
+@import 'components/header';
+@import 'components/slider';
+@import 'components/price';
+@import 'components/footer';
+
+//Media
+@import 'config/media';
